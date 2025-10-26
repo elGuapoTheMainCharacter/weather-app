@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Hello, World!</title>
+</head>
+<body>
+  <header>
+    <h1 id="heading">
+      GenZ Weather
+    </h1>
+  </header>
+  <div id="weatherContent">
+    <div id="inputSect">
+      <input type="text" placeholder="Provide your location..." id="location">
+      <br>
+      <button onclick="fetchUserWeather()">Get Weather</button>
+    </div>
+    <div id="outputSect">
+    <br>
+     <h3 id="cityName">Dutywa</h3>
+    <p id="currentDate">13 September 2025, 12:45</p>
+    <h2 id="weatherIcon">🌞</h2> <!-- Placeholder for weather icon -->
+    <h2 id="temperature">35°C</h2> <!-- Placeholder for temperature -->
+    <p id="weatherDescription">Clear sky</p>
+    <p id="windSpeed">Wind speed: 320 km/h</p>
+    </div>
+  </div>
+  <footer>
+    &copy 2025 Zipo Nkefe
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
