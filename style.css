@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(350deg, yellow, green);
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#heading {
+  color: lightcoral;
+}
+
+#weatherContent {
+  background: linear-gradient(350deg, yellow, orange);
+  height: 80vh;
+  border-radius: 10%;
+}
+
+#location {
+  text-align: center;
+}
+
+#inputSect {
+  display: flex;
+  flex-direction: column; /* Ensure elements stack vertically */
+  justify-content: center;
+  align-items: center;
+  height: 11vh;
+}
+
+#location {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  align-items: center;
+  border-radius: 5%;
+  background: yellow;
+}
+#outputSect{
+  text-align: center;
+  font:serif;
+}
